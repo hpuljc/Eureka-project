@@ -10,6 +10,7 @@ public class ConfigServerGitApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ConfigServerGitApplication.class, args);
+        System.out.println("config-server running......");
     }
 
 }
